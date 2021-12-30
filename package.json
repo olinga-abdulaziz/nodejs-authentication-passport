@@ -1,0 +1,24 @@
+{
+  "name": "auth3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-flash": "^0.0.2",
+    "express-openid": "^1.0.8",
+    "express-session": "^1.17.2",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0"
+  }
+}
